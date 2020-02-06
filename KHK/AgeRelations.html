@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title>	Kgothatso Harmony Khoza	</title>
+		<link href ="css/bootstrap.min.css" rel="stylesheet">
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+	
+		<div class="jumbotron text-center"> 
+			<h1> Kgothatso Harmony Khoza </h1>
+			<p class="lead">This is an overview of my resume as well as my intrests & hobbies</p>
+			<img class="rounded-circle" src="IMG_0445.jpg" alt="KayGee" width="250" height="245">
+		</div>
+		
+		<div class="container">
+			<nav class="navbar navbar-light navbar-expand-sm bg-light alert alert-dark" role="alert">
+			<a class= "navbar-brand mb-01 h8" href="index.html">KH.Khoza</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="Resume.html">Resume</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<div class="dropdown">
+						<li class="nav-item">
+							<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Qualifications
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								<li class="dropdown-header" role="presentation">Certificates </li>
+								<li role="presentation">
+									<a role="menuitem" tabindex="-1" href="Qualifications.html"><span>NCV Level 4</a>
+								</li>
+								<li class="divider" role="presentation"></li>
+								<li class="dropdown-header" role="presentation">Online certificates</li>
+								<li role="presentation" class="divider">
+									<a role="menuitem" tabindex="-1" href="QualificationsPHP.html"><span>PHP</a>
+								</li>
+							</ul>
+						</li>
+					</div>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="Skills.html">Skills</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="AgeRelations.html">Age Relations</a>
+					</li>
+				</ul>				
+			</div>
+			</nav>
+			</nav>
+			
+			
+	
+<!-- 		<script type ="text/javascript">
+			document.write("Hello there")
+		</script> -->
+
+		<p id='p_name'></p>
+
+		<!-- variable eg -->
+		<script>
+var my_name = "Kgothatso Harmony Khoza";
+var age = 21;
+document.getElementById("p_name").innerHTML="Hey there my name is " + my_name + " and I am " + age + " years old";
+
+var a = prompt("by the year");
+<!-- document.write(a, " - "," 1998 ", " =  ", a-1998 + "<br><br>"); -->
+
+if (a-1998 > 0 && a-1998 < 20 ){ 
+	document.write("In the year ", a, " I was ", a-1998, " years old", "<br><br> I was a born free that's what led u to enjoy coding.");
+	
+}
+
+else if (a-1998 >=20 && a-1998<22){
+	document.write("In the year ", a, " I am ", a-1998, " years old", "<br><br> :) Im still a born free and getting knowledge on networks from Umzinyathi programme.");
+}
+
+else {
+	document.write("In the year ", a, " I will be ", a-1998, " years old", "<br><br> I hope to live and breath code in the IT field.");
+}
+
+function alertMessage(message){
+	alert(message)
+}
+
+		<!-- document.write("<h1>Powered By LastBorn</h1>"); -->
+
+		</script>
+		
+		<div class="jumbotron text-center" style="margin-bottom:0">
+			<p class="lead">© Kgothatso Harmony Khoza</p>
+		</div>
+	
+	<script src="js/bootstrap.min.js"> </script>
+	</body>
+	
+</html>
